@@ -1,0 +1,26 @@
+---
+title: "Sonam Yang"
+categories:
+  - PhD
+  - LLMs
+  - Federated Learning
+author: "Sonam Yang"
+date: 09/04/2024
+format: html
+editor: visual
+---
+
+### Who am I:
+![](/files/img/researchers/Sonam-bio.png){fig-align="right" width="200"}
+
+My name is Sonam Yang, and I am currently pursuing a Ph.D. in Animal Science with a research focus on large language models (LLMs), computer vision, and federated learning. My work integrates deep learning techniques to revolutionize traditional farm management systems. As an enthusiastic user of LLMs, I am deeply convinced that these models can dramatically reshape the way we work, allowing individuals to engage in more creative work, rather than mundane and repetitive tasks.
+
+One of the critical issues in the adoption of LLMs is their potential to infringe on users' privacy. This is where federated learning comes into play, offering a solution that provides customized and secure AI services without compromising user privacy.
+
+I also have a strong interest in different languages and religions, and I believe there is fascinating potential in integrating these rich cultural and human elements with deep learning techniques. Combining AI with linguistic and religious knowledge could open up new, meaningful ways of understanding and preserving these human treasures.
+
+### My work at Bovi-Analytics
+
+My research focuses on developing federated LLMs for farm management systems to modernize traditional approaches and promote greater adoption of AI technologies in the field of animal science. I envision a future where farmers can easily interact with AI models, whether by taking a picture or asking a question, and receive tailored, farm-specific solutions without privacy concerns. This would serve as a powerful blend of a secretary, a professional veterinarian, and a trusted advisor, all in one tool. 
+
+Feel free to reach out to me if you'd like to share ideas or collaborate on related projects.
