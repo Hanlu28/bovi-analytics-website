@@ -231,74 +231,32 @@
     "text": "PhD project\nPhD Peter Hut"
   },
   {
-    "objectID": "researchers/mattieu-salamone.html",
-    "href": "researchers/mattieu-salamone.html",
-    "title": "Who am I",
+    "objectID": "researchers/meike-van-leerdam.html",
+    "href": "researchers/meike-van-leerdam.html",
+    "title": "Meike van Leerdam",
     "section": "",
-    "text": "I am Matthieu Salamone, and I hold an MSc in Veterinary Medicine, which I completed in 2018. Subsequently, in 2019, I embarked on a joint PhD program, combining Engineering Technology from KU Leuven under the supervision of prof. dr. ir Ben Aernouts & dr. ir. Ines Adriaens and Veterinary Science from Ghent University under the supervision of ass. prof. dr. Miel Hostens & prof. dr. Geert Opsomer. During my PhD, I have been responsible for developing and validating one of the prediction models as part of the VLAIO-LA RESILIENCE project. Beyond my contributions to the RESILIENCE project, my diverse background in data science, veterinary medicine, and comprehensive knowledge of the dairy industry, have enabled me to engage in collaborative efforts to analyze various veterinary data types. These include data related to Semen and udder health (Kemel et al. 2022, Adriaens et al.2023). I am currently in the process of finishing up my Phd aiming to defend it autumn 2023."
+    "text": "Who am I:\nHi! My name is Meike, and I’m from the Netherlands. I’m currently studying Veterinary Medicine at Utrecht University, and in January, I hope to begin a PhD at Cornell University. My research will combine two of my passions: cows and data. Although I still have much to learn, I enjoy programming, as it feels like solving puzzles. Thanks to my veterinary background, I’ve spent considerable time caring for cows and working to improve their welfare, which is something I find very important.\n\n\nMy work at Bovi-Analytics\nFor my master’s thesis, I developed an LSTM model to predict cows at risk of hypocalcemia using behavioral sensor data. The idea is that an improved version of the model could be used to monitor herd calcium status and identify animals at risk of transition diseases. This approach could help make proactive dairy management possible, ultimately improving animal health."
   },
   {
-    "objectID": "researchers/mattieu-salamone.html#vlaio-la-resilience",
-    "href": "researchers/mattieu-salamone.html#vlaio-la-resilience",
-    "title": "Who am I",
-    "section": "VLAIO-LA RESILIENCE",
-    "text": "VLAIO-LA RESILIENCE\nIn dairy cattle, the transition period is defined as three weeks before and three weeks after calving.This timeframe is considered one of the most challenging periods of the lactation for a high-producing dairy cow. During the transition period 30 to 50 % of cows develop metabolic or infectious diseases. The aim of this project was to use Machine Learning (ML) modeling methods to develop a new Key Performance Indicator (KPI) which reflects the transition success of a cow. Over the course of 4 years, we developed models that utilize historical data from the previous lactation and a set of cow-/herd-specific data to predict the production in the next lactation’s transition period (Liseune et al., 2021; Salamone et al., 2022). The difference between both models lies in the type of input data. The nextMILK model, developed by Salamone et al. (2022), uses low-frequency (4-6 week interval) test-day milk yield to predict milk production. In contrast, the SLMYP model of Liseune et al. (2021) relies on high-frequency milk meter data (daily interval) to predict milk yield.\n\n\n\n\n\nIn the second phase of the project potential KPI was constructed in the form of residuals in the transition period (MRT). The MRT is calculated by subtracting the realized milk yield during the transition period from a prediction of healthy milk yield.\n\nIn a longitudinal study conducted at the ILVO research facility, cow-level data was used to assess the associations between MRT and transition success. The results from this study revealed significant links between MRT and dry matter intake, health status and the lipogenic mobilization process via non-esterified fatty acids, insulin, and glucose (Salamone et al. 2023). A survey was also conducted at the herd level, the data from 34 farms is still under investigation to identify the link between MRT and management practices."
-  },
-  {
-    "objectID": "researchers/index.html#active-researchers",
-    "href": "researchers/index.html#active-researchers",
-    "title": "\n            Researchers\n        ",
-    "section": "Active researchers",
-    "text": "Active researchers\n\n\nMiel Hostens\n\n\n\n\n\n\n\nEnhong Liu\n\n\n\n\n\n\n\nMatthieu Salamone\n\n\n\n\n\n\n\nKristof Hermans\n\n\n\n\n\n\n\nYara Sleghers\n\n\n\n\n\n\n\nSaba Noor\n\n\n\n\n\n\n\nLucia Trapenese\n\n\n\n\n\n\n\nSonam Yang\n\n\n\n\n\n\n\nDavey Seeman"
-  },
-  {
-    "objectID": "researchers/index.html#previous-researchers",
-    "href": "researchers/index.html#previous-researchers",
-    "title": "\n            Researchers\n        ",
-    "section": "Previous researchers",
-    "text": "Previous researchers\n\n\nYongYan Chen\n\n\n\n\n\n\n\nHadi Atashi\n\n\n\nJenne De Koster\n\n\n\nOsvaldo Bogado Pascottini\n\n\n\nMonica Probo\n\n\n\nPeter Hut\n\n\n\n\n\n\n\nArno Liseune"
-  },
-  {
-    "objectID": "researchers/davey-seeman.html",
-    "href": "researchers/davey-seeman.html",
-    "title": "Davey Seeman",
+    "objectID": "researchers/lucia-trapenese.html",
+    "href": "researchers/lucia-trapenese.html",
+    "title": "Lucia Trapenese",
     "section": "",
-    "text": "Who am I\nHello, I’m Davey. I’m a rising sophomore studying math and computer science at Cornell University. My areas of interest include computer vision, natural language processing (specifically sentiment analysis), and statistics. I also care deeply about cattle welfare and how it can be achieved using technology. Originally, I’m from Toronto, Canada. Coming to Ithaca was a big change, but I’ve enjoyed my time here!\n\n\nMy work at Bovi-Analytics\nI am spending this summer (2024) helping create an AI model that, given a video of cows in a barn, determines how long these cows are playing. I am also working on a separate model that evaluates play behavior based on accelerometer data. My work helps form first stages of the “PlayingCalves” project, whose ultimate goal is to find the relationship between calves’ play time and the space allotment given to the calves."
+    "text": "Who am I\nHi I’m Lucia! I’m from Italy and I’m a PhD student in “Artificial Intelligence for Agrifood and Environment”. My work is focused on the application of machine learning algorithms in ruminant breeding to enhance their management, production, and reproduction performances. Although my focus is on these topics, I am interested in all activities exploiting machine learning, or more generally data analysis, to improve livestock management and animal welfare.\n\n\nMy work at Utrecht University\nI will spend six months at Utrecht University as a visiting PhD where I’m working on the application of deep learning algorithms in the cow domain. In particular, the project aims to explore the relationship between activity and productivity data."
   },
   {
-    "objectID": "projects/veerkracht.html",
-    "href": "projects/veerkracht.html",
-    "title": "Veerkracht project",
+    "objectID": "researchers/enhong-liu.html",
+    "href": "researchers/enhong-liu.html",
+    "title": "Enhong Liu",
     "section": "",
-    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
+    "text": "Who am I\nI’m Enhong Liu, holding a Ph.D. in Animal Science and an M.S. in Data Science. I firmly believe that digitalization can play a pivotal role in transforming the dairy industry into a more efficient and intelligent system. The current advancements in AI provide a significant opportunity to make this vision a reality. However, while AI continues to evolve and new, more powerful models emerge daily from tech giants and startups, it’s crucial to ensure that AI genuinely adds value and solves real-world problems, rather than merely appearing impressive or superficial. This demands AI researchers and developers to have not only a solid understanding of algorithms, models, and architectures but, more importantly, a deep comprehension of the industry in which these technologies will be applied, along with the specific challenges they are designed to address. My graduate training and work experience in both fields positions me uniquely to add value to the lab. My background in Animal Science gives me a comprehensive understanding of dairy cattle physiology and management principles, and my M.S. in Data Science (formally known as Computational Data Analytics) equips me with cutting-edge knowledge of AI techniques. This combination enables me to continue lifelong learning in the fast-paced, ever-evolving AI landscape.\n\n\nMy work at Bovi-Analytics\nMy current focus is on projects related to generative AI, large language models (LLMs), and federated learning. While general-purpose LLMs-based chatbot like ChatGPT have made tremendous progress in answering generic questions, they often struggle to provide accurate and factually correct answers when it comes to private data or domain-specific inquiries—especially in industries like dairy, where high-quality training data may not be publicly available during their initial model training. Hallucinations in AI responses can undermine trust and hinder AI adoption in agriculture and the dairy industry. Currently, I am collaborating with Dr. Miel Hostens and other professionals in Computer Science to develop a data governance framework, which is critical for managing large, heterogeneous datasets from various sources and formats, ensuring the availability of high-quality data for LLMs. Additionally, I am working on fine-tuning language models and leveraging retrieval-augmented generation techniques to create solutions that can effectively interact with databases containing both structured and unstructured data."
   },
   {
-    "objectID": "projects/veerkracht.html#summary",
-    "href": "projects/veerkracht.html#summary",
-    "title": "Veerkracht project",
+    "objectID": "researchers/arno-liseune.html",
+    "href": "researchers/arno-liseune.html",
+    "title": "Curriculum Vitae - Arno Liseune",
     "section": "",
-    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
-  },
-  {
-    "objectID": "projects/decide.html",
-    "href": "projects/decide.html",
-    "title": "Decide project",
-    "section": "",
-    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
-  },
-  {
-    "objectID": "projects/decide.html#summary",
-    "href": "projects/decide.html#summary",
-    "title": "Decide project",
-    "section": "",
-    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\n            Welcome to the Bovi-Analytics lab\n        ",
-    "section": "",
-    "text": "Welcome to the Bovi-Analytics lab\n        \n        \n            However beautifull the strategy might be, once in a while you should look at the data\n        \n        \n            \n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n\n\nInstructor\n\n   Dr. Miel Hostens\n   Morrison Hall 273, Ithaca, NY 14853\n   miel.hostens@cornell.edu\n   Schedule an appointment\n My presentations\n\n\n\nLab details\n\n   Morrison Hall 273, Ithaca, NY 14853\n   Slack\n   Github\n   LinkedIn\n   @MielHostens\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond (although sometimes too short) to all e-mails and Slack messages within 24 hours (I really do). If I don’t respond right away, don’t worry, just sent me a friendly reminder!"
+    "text": "PhD project\nPhD Arno Liseune"
   },
   {
     "objectID": "open-positions/post-doc.html",
@@ -336,25 +294,74 @@
     "text": "Preferred qualifications\n\nExperience in supervision of undergraduate and graduate students.\nPassion for innovation: Enthusiasm for exploring new technologies, methodologies, and best practices in digital agriculture, with a keen interest in driving innovation and sustainability in the dairy sector through advanced data analytics and technology integration.\n\nAdditional information can be requested at miel.hostens@cornell.edu"
   },
   {
-    "objectID": "researchers/arno-liseune.html",
-    "href": "researchers/arno-liseune.html",
-    "title": "Curriculum Vitae - Arno Liseune",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n            Welcome to the Bovi-Analytics lab\n        ",
     "section": "",
-    "text": "PhD project\nPhD Arno Liseune"
+    "text": "Welcome to the Bovi-Analytics lab\n        \n        \n            However beautifull the strategy might be, once in a while you should look at the data\n        \n        \n            \n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n\n\nInstructor\n\n   Dr. Miel Hostens\n   Morrison Hall 273, Ithaca, NY 14853\n   miel.hostens@cornell.edu\n   Schedule an appointment\n My presentations\n\n\n\nLab details\n\n   Morrison Hall 273, Ithaca, NY 14853\n   Slack\n   Github\n   LinkedIn\n   @MielHostens\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond (although sometimes too short) to all e-mails and Slack messages within 24 hours (I really do). If I don’t respond right away, don’t worry, just sent me a friendly reminder!"
   },
   {
-    "objectID": "researchers/enhong-liu.html",
-    "href": "researchers/enhong-liu.html",
-    "title": "Enhong Liu",
+    "objectID": "projects/decide.html",
+    "href": "projects/decide.html",
+    "title": "Decide project",
     "section": "",
-    "text": "Who am I\nI’m Enhong Liu, holding a Ph.D. in Animal Science and an M.S. in Data Science. I firmly believe that digitalization can play a pivotal role in transforming the dairy industry into a more efficient and intelligent system. The current advancements in AI provide a significant opportunity to make this vision a reality. However, while AI continues to evolve and new, more powerful models emerge daily from tech giants and startups, it’s crucial to ensure that AI genuinely adds value and solves real-world problems, rather than merely appearing impressive or superficial. This demands AI researchers and developers to have not only a solid understanding of algorithms, models, and architectures but, more importantly, a deep comprehension of the industry in which these technologies will be applied, along with the specific challenges they are designed to address. My graduate training and work experience in both fields positions me uniquely to add value to the lab. My background in Animal Science gives me a comprehensive understanding of dairy cattle physiology and management principles, and my M.S. in Data Science (formally known as Computational Data Analytics) equips me with cutting-edge knowledge of AI techniques. This combination enables me to continue lifelong learning in the fast-paced, ever-evolving AI landscape.\n\n\nMy work at Bovi-Analytics\nMy current focus is on projects related to generative AI, large language models (LLMs), and federated learning. While general-purpose LLMs-based chatbot like ChatGPT have made tremendous progress in answering generic questions, they often struggle to provide accurate and factually correct answers when it comes to private data or domain-specific inquiries—especially in industries like dairy, where high-quality training data may not be publicly available during their initial model training. Hallucinations in AI responses can undermine trust and hinder AI adoption in agriculture and the dairy industry. Currently, I am collaborating with Dr. Miel Hostens and other professionals in Computer Science to develop a data governance framework, which is critical for managing large, heterogeneous datasets from various sources and formats, ensuring the availability of high-quality data for LLMs. Additionally, I am working on fine-tuning language models and leveraging retrieval-augmented generation techniques to create solutions that can effectively interact with databases containing both structured and unstructured data."
+    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
   },
   {
-    "objectID": "researchers/lucia-trapenese.html",
-    "href": "researchers/lucia-trapenese.html",
-    "title": "Lucia Trapenese",
+    "objectID": "projects/decide.html#summary",
+    "href": "projects/decide.html#summary",
+    "title": "Decide project",
     "section": "",
-    "text": "Who am I\nHi I’m Lucia! I’m from Italy and I’m a PhD student in “Artificial Intelligence for Agrifood and Environment”. My work is focused on the application of machine learning algorithms in ruminant breeding to enhance their management, production, and reproduction performances. Although my focus is on these topics, I am interested in all activities exploiting machine learning, or more generally data analysis, to improve livestock management and animal welfare.\n\n\nMy work at Utrecht University\nI will spend six months at Utrecht University as a visiting PhD where I’m working on the application of deep learning algorithms in the cow domain. In particular, the project aims to explore the relationship between activity and productivity data."
+    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
+  },
+  {
+    "objectID": "projects/veerkracht.html",
+    "href": "projects/veerkracht.html",
+    "title": "Veerkracht project",
+    "section": "",
+    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
+  },
+  {
+    "objectID": "projects/veerkracht.html#summary",
+    "href": "projects/veerkracht.html#summary",
+    "title": "Veerkracht project",
+    "section": "",
+    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
+  },
+  {
+    "objectID": "researchers/davey-seeman.html",
+    "href": "researchers/davey-seeman.html",
+    "title": "Davey Seeman",
+    "section": "",
+    "text": "Who am I\nHello, I’m Davey. I’m a rising sophomore studying math and computer science at Cornell University. My areas of interest include computer vision, natural language processing (specifically sentiment analysis), and statistics. I also care deeply about cattle welfare and how it can be achieved using technology. Originally, I’m from Toronto, Canada. Coming to Ithaca was a big change, but I’ve enjoyed my time here!\n\n\nMy work at Bovi-Analytics\nI am spending this summer (2024) helping create an AI model that, given a video of cows in a barn, determines how long these cows are playing. I am also working on a separate model that evaluates play behavior based on accelerometer data. My work helps form first stages of the “PlayingCalves” project, whose ultimate goal is to find the relationship between calves’ play time and the space allotment given to the calves."
+  },
+  {
+    "objectID": "researchers/index.html#active-researchers",
+    "href": "researchers/index.html#active-researchers",
+    "title": "\n            Researchers\n        ",
+    "section": "Active researchers",
+    "text": "Active researchers\n\n\nMiel Hostens\n\n\n\n\n\n\n\nEnhong Liu\n\n\n\n\n\n\n\nMatthieu Salamone\n\n\n\n\n\n\n\nKristof Hermans\n\n\n\n\n\n\n\nYara Sleghers\n\n\n\n\n\n\n\nSaba Noor\n\n\n\n\n\n\n\nLucia Trapenese\n\n\n\n\n\n\n\nSonam Yang\n\n\n\n\n\n\n\nDavey Seeman\n\n\n\n\n\n\n\nMeike van Leerdam"
+  },
+  {
+    "objectID": "researchers/index.html#previous-researchers",
+    "href": "researchers/index.html#previous-researchers",
+    "title": "\n            Researchers\n        ",
+    "section": "Previous researchers",
+    "text": "Previous researchers\n\n\nYongYan Chen\n\n\n\n\n\n\n\nHadi Atashi\n\n\n\nJenne De Koster\n\n\n\nOsvaldo Bogado Pascottini\n\n\n\nMonica Probo\n\n\n\nPeter Hut\n\n\n\n\n\n\n\nArno Liseune"
+  },
+  {
+    "objectID": "researchers/mattieu-salamone.html",
+    "href": "researchers/mattieu-salamone.html",
+    "title": "Who am I",
+    "section": "",
+    "text": "I am Matthieu Salamone, and I hold an MSc in Veterinary Medicine, which I completed in 2018. Subsequently, in 2019, I embarked on a joint PhD program, combining Engineering Technology from KU Leuven under the supervision of prof. dr. ir Ben Aernouts & dr. ir. Ines Adriaens and Veterinary Science from Ghent University under the supervision of ass. prof. dr. Miel Hostens & prof. dr. Geert Opsomer. During my PhD, I have been responsible for developing and validating one of the prediction models as part of the VLAIO-LA RESILIENCE project. Beyond my contributions to the RESILIENCE project, my diverse background in data science, veterinary medicine, and comprehensive knowledge of the dairy industry, have enabled me to engage in collaborative efforts to analyze various veterinary data types. These include data related to Semen and udder health (Kemel et al. 2022, Adriaens et al.2023). I am currently in the process of finishing up my Phd aiming to defend it autumn 2023."
+  },
+  {
+    "objectID": "researchers/mattieu-salamone.html#vlaio-la-resilience",
+    "href": "researchers/mattieu-salamone.html#vlaio-la-resilience",
+    "title": "Who am I",
+    "section": "VLAIO-LA RESILIENCE",
+    "text": "VLAIO-LA RESILIENCE\nIn dairy cattle, the transition period is defined as three weeks before and three weeks after calving.This timeframe is considered one of the most challenging periods of the lactation for a high-producing dairy cow. During the transition period 30 to 50 % of cows develop metabolic or infectious diseases. The aim of this project was to use Machine Learning (ML) modeling methods to develop a new Key Performance Indicator (KPI) which reflects the transition success of a cow. Over the course of 4 years, we developed models that utilize historical data from the previous lactation and a set of cow-/herd-specific data to predict the production in the next lactation’s transition period (Liseune et al., 2021; Salamone et al., 2022). The difference between both models lies in the type of input data. The nextMILK model, developed by Salamone et al. (2022), uses low-frequency (4-6 week interval) test-day milk yield to predict milk production. In contrast, the SLMYP model of Liseune et al. (2021) relies on high-frequency milk meter data (daily interval) to predict milk yield.\n\n\n\n\n\nIn the second phase of the project potential KPI was constructed in the form of residuals in the transition period (MRT). The MRT is calculated by subtracting the realized milk yield during the transition period from a prediction of healthy milk yield.\n\nIn a longitudinal study conducted at the ILVO research facility, cow-level data was used to assess the associations between MRT and transition success. The results from this study revealed significant links between MRT and dry matter intake, health status and the lipogenic mobilization process via non-esterified fatty acids, insulin, and glucose (Salamone et al. 2023). A survey was also conducted at the herd level, the data from 34 farms is still under investigation to identify the link between MRT and management practices."
   },
   {
     "objectID": "researchers/miel-hostens.html",
