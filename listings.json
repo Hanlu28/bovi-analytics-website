@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/tutorials/index.html",
+    "items": [
+      "/tutorials/tableau.html",
+      "/tutorials/databricks.html",
+      "/tutorials/general-naming-convention.html",
+      "/tutorials/python-naming-convention.html",
+      "/tutorials/r-naming-convention.html",
+      "/tutorials/scala-naming-convention.html",
+      "/tutorials/slack.html"
+    ]
+  },
+  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/decide.html",
@@ -10,18 +22,6 @@
     "listing": "/open-positions/index.html",
     "items": [
       "/open-positions/post-doc.html"
-    ]
-  },
-  {
-    "listing": "/tutorials/index.html",
-    "items": [
-      "/tutorials/tableau.html",
-      "/tutorials/databricks.html",
-      "/tutorials/general-naming-convention.html",
-      "/tutorials/python-naming-convention.html",
-      "/tutorials/r-naming-convention.html",
-      "/tutorials/scala-naming-convention.html",
-      "/tutorials/slack.html"
     ]
   }
 ]

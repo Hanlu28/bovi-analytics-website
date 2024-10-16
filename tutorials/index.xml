@@ -9,7 +9,7 @@
 <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/</link>
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.553</generator>
+<generator>quarto-1.5.57</generator>
 <lastBuildDate>Mon, 13 Nov 2023 05:00:00 GMT</lastBuildDate>
 <item>
   <title>How to get an academic license for Tableau?</title>
@@ -172,6 +172,7 @@ font-style: inherit;">// Descriptive but not overly long</span></span></code></p
 <p><strong>Bad Example:</strong></p>
 <div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">class</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
@@ -184,8 +185,10 @@ font-style: inherit;">//</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'class'</span> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">is</span> a reserved keyword <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> Python.</span></code></pre></div>
 <p><strong>Good Example:</strong></p>
 <div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">user_class <span class="op" style="color: #5E5E5E;
@@ -198,8 +201,10 @@ font-style: inherit;">;</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">//</span> Use a different name that <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">is</span> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">not</span> a reserved keyword.</span></code></pre></div>
 </section>
 </section>
@@ -239,9 +244,11 @@ background-color: null;
 font-style: inherit;"># Class</span></span>
 <span id="cb9-9"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">class</span> Car:</span>
 <span id="cb9-10">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">__init__</span>(<span class="va" style="color: #111111;
@@ -272,6 +279,7 @@ background-color: null;
 font-style: inherit;">// Variables and functions</span></span>
 <span id="cb10-2"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">let</span> userName <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
@@ -281,6 +289,7 @@ background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb10-3"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">calculateAverageScore</span>() { <span class="co" style="color: #5E5E5E;
@@ -292,6 +301,7 @@ background-color: null;
 font-style: inherit;">// Constants (non-enforced convention)</span></span>
 <span id="cb10-6"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">const</span> MAX_ATTEMPTS <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
@@ -305,6 +315,7 @@ background-color: null;
 font-style: inherit;">// Constructor function (class-like)</span></span>
 <span id="cb10-9"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">Car</span>(make<span class="op" style="color: #5E5E5E;
@@ -312,6 +323,7 @@ background-color: null;
 font-style: inherit;">,</span> model) {</span>
 <span id="cb10-10">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">this</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">.</span><span class="at" style="color: #657422;
@@ -323,6 +335,7 @@ background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb10-11">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">this</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">.</span><span class="at" style="color: #657422;
@@ -389,6 +402,7 @@ background-color: null;
 font-style: inherit;">// Class</span></span>
 <span id="cb11-9"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">class</span> Car <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">{</span></span>
@@ -420,6 +434,7 @@ background-color: null;
 font-style: inherit;">{</span></span>
 <span id="cb11-14">        <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">this</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
@@ -431,6 +446,7 @@ background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb11-15">        <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">this</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
@@ -488,9 +504,11 @@ background-color: null;
 font-style: inherit;">10</span></span>
 <span id="cb13-2"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">class</span> MyClass:</span>
 <span id="cb13-3">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">__init__</span>(<span class="va" style="color: #111111;
@@ -548,6 +566,7 @@ font-style: inherit;">"John"</span></span>
 <span id="cb1-2"></span>
 <span id="cb1-3"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> calculate_average_score(scores):</span>
 <span id="cb1-4">    <span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -581,9 +600,11 @@ font-style: inherit;">3.14159</span></span></code></pre></div>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">class</span> Car:</span>
 <span id="cb3-2">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">__init__</span>(<span class="va" style="color: #111111;
@@ -609,9 +630,11 @@ font-style: inherit;">=</span> model</span></code></pre></div>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">class</span> Car:</span>
 <span id="cb4-2">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> start_engine(<span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">self</span>):</span>
@@ -628,9 +651,11 @@ font-style: inherit;"># ...</span></span></code></pre></div>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">class</span> MyClass:</span>
 <span id="cb5-2">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">__init__</span>(<span class="va" style="color: #111111;
@@ -646,6 +671,7 @@ font-style: inherit;">42</span></span>
 <span id="cb5-4"></span>
 <span id="cb5-5">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> _private_method(<span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">self</span>):</span>
@@ -754,6 +780,7 @@ font-style: inherit;">"John"</span></span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(scores) {</span>
 <span id="cb1-4">  <span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -768,6 +795,7 @@ font-style: inherit;"># ...</span></span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(scores) {</span>
 <span id="cb2-2">  <span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -822,6 +850,7 @@ font-style: inherit;">FALSE</span></span></code></pre></div>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(scores) { <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Shortened "calculate" to "calc"</span></span>
@@ -864,12 +893,14 @@ background-color: null;
 font-style: inherit;"># Good indentation and spacing</span></span>
 <span id="cb9-2"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> (condition) {</span>
 <span id="cb9-3">  <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ...</span></span>
 <span id="cb9-4">} <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">else</span> {</span>
 <span id="cb9-5">  <span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -881,12 +912,14 @@ background-color: null;
 font-style: inherit;"># Bad indentation and spacing</span></span>
 <span id="cb9-9"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span>(condition){</span>
 <span id="cb9-10"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#...</span></span>
 <span id="cb9-11">}<span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">else</span>{</span>
 <span id="cb9-12"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -921,6 +954,7 @@ font-style: inherit;">#...</span></span>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb1-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">package</span> com<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">.</span>example<span class="op" style="color: #5E5E5E;
@@ -935,6 +969,7 @@ font-style: inherit;">.</span>models</span></code></pre></div>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb2-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">class</span> Car <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">{</span></span>
@@ -947,6 +982,7 @@ font-style: inherit;">}</span></span>
 <span id="cb2-4"></span>
 <span id="cb2-5"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">object</span> CustomerDatabase <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">{</span></span>
@@ -963,6 +999,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb3-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">trait</span> <span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">Logger</span> <span class="op" style="color: #5E5E5E;
@@ -981,6 +1018,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb4-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">val</span> userName<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">:</span> <span class="ex" style="color: null;
@@ -993,6 +1031,7 @@ font-style: inherit;">"John"</span></span>
 <span id="cb4-2"></span>
 <span id="cb4-3"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">calculateAverageScore</span><span class="op" style="color: #5E5E5E;
@@ -1027,6 +1066,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb5-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">val</span> MAX_ATTEMPTS <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
@@ -1034,6 +1074,7 @@ background-color: null;
 font-style: inherit;">3</span></span>
 <span id="cb5-2"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">val</span> PI <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
@@ -1046,6 +1087,7 @@ font-style: inherit;">3.14159</span></span></code></pre></div>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb6-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">class</span> MyContainer<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">[</span>A<span class="op" style="color: #5E5E5E;
@@ -1066,35 +1108,46 @@ font-style: inherit;">}</span></span></code></pre></div>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb7-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">sealed</span> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">trait</span> <span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">Color</span></span>
 <span id="cb7-2"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">case</span> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">object</span> Red <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">extends</span> <span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">Color</span></span>
 <span id="cb7-3"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">case</span> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">object</span> Green <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">extends</span> <span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">Color</span></span>
 <span id="cb7-4"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">case</span> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">object</span> Blue <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">extends</span> <span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">Color</span></span></code></pre></div>
@@ -1105,6 +1158,7 @@ font-style: inherit;">Color</span></span></code></pre></div>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb8-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">package</span> com<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">.</span>example<span class="op" style="color: #5E5E5E;
@@ -1113,13 +1167,16 @@ font-style: inherit;">.</span>myapp</span>
 <span id="cb8-2"></span>
 <span id="cb8-3"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">package</span> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">object</span> utils <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">{</span></span>
 <span id="cb8-4">  <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">val</span> DEFAULT_TIMEOUT <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
@@ -1127,6 +1184,7 @@ background-color: null;
 font-style: inherit;">5000</span></span>
 <span id="cb8-5">  <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">formatDate</span><span class="op" style="color: #5E5E5E;
@@ -1160,6 +1218,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 <p><strong>Example:</strong></p>
 <div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb9-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">calculateAverageScore</span><span class="op" style="color: #5E5E5E;
@@ -1183,6 +1242,7 @@ background-color: null;
 font-style: inherit;">{</span></span>
 <span id="cb9-2">  <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">(</span>scores<span class="op" style="color: #5E5E5E;
@@ -1194,8 +1254,10 @@ background-color: null;
 font-style: inherit;">{</span></span>
 <span id="cb9-3">    <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">throw</span> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">new</span> <span class="ex" style="color: null;
 background-color: null;
 font-style: inherit;">IllegalArgumentException</span><span class="op" style="color: #5E5E5E;
@@ -1209,11 +1271,13 @@ font-style: inherit;">)</span></span>
 background-color: null;
 font-style: inherit;">}</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">else</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">{</span></span>
 <span id="cb9-5">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">val</span> sum <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> scores<span class="op" style="color: #5E5E5E;
@@ -1221,6 +1285,7 @@ background-color: null;
 font-style: inherit;">.</span>sum</span>
 <span id="cb9-6">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">val</span> count <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> scores<span class="op" style="color: #5E5E5E;
@@ -1310,6 +1375,7 @@ font-style: inherit;">'token is in the description of the pushnotifications chan
 <h3 class="anchored" data-anchor-id="create-message-and-send-it">Create message and send it</h3>
 <div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">try</span>:</span>
 <span id="cb3-2">    response <span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -1331,6 +1397,7 @@ font-style: inherit;">print</span>(response)</span>
 <span id="cb3-7"></span>
 <span id="cb3-8"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">except</span> SlackApiError <span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">as</span> e:</span>
@@ -1339,6 +1406,7 @@ background-color: null;
 font-style: inherit;"># You will get a SlackApiError if "ok" is False</span></span>
 <span id="cb3-10">    <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">assert</span> e.response[<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"error"</span>]  <span class="co" style="color: #5E5E5E;
