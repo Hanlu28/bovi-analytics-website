@@ -1,0 +1,16 @@
+---
+title: "Get started with Github, R and Zenodo"
+execute:
+  eval: false
+categories:
+  - GitHub
+  - R
+  - Zenodo
+authors: Miel Hostens, et al.
+date: 10/18/24
+toc: true
+---
+
+# Webinar
+
+{{< video https://www.youtube.com/watch?v=e1GQgV7vSp0 >}}
