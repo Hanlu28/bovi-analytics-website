@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-10-18">
 <meta name="description" content="Use modern data analytical tools for dairy science">
 
-<title>Tutorials – Bovi-Analytics</title>
+<title>Onboarding guide – Bovi-Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="..//files/img/Bovi-Analytics-SmallLogo.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,67 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Bovi-Analytics" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed">
 
@@ -171,7 +112,7 @@ window.Quarto = {
 <span class="menu-text">Tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../tutorials/index.html" aria-current="page"> 
+    <a class="nav-link" href="../tutorials/index.html"> 
 <span class="menu-text">Tutorials</span></a>
   </li>  
   <li class="nav-item compact">
@@ -192,25 +133,56 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Best practice">Best practice <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Databricks">Databricks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="GitHub">GitHub <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Scala">Scala <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Slack">Slack <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Zenodo">Zenodo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="best practices">best practices <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#bovi-analytics-onboarding-guide" id="toc-bovi-analytics-onboarding-guide" class="nav-link active" data-scroll-target="#bovi-analytics-onboarding-guide">Bovi-Analytics onboarding guide</a>
+  <ul class="collapse">
+  <li><a href="#getting-started-at-the-bovi-analytics-lab" id="toc-getting-started-at-the-bovi-analytics-lab" class="nav-link" data-scroll-target="#getting-started-at-the-bovi-analytics-lab">Getting started at the Bovi-Analytics lab</a></li>
+  <li><a href="#bovi-analytics-team-communication" id="toc-bovi-analytics-team-communication" class="nav-link" data-scroll-target="#bovi-analytics-team-communication">Bovi-analytics team communication</a></li>
+  <li><a href="#project-management" id="toc-project-management" class="nav-link" data-scroll-target="#project-management">Project management</a></li>
+  <li><a href="#computational-languages" id="toc-computational-languages" class="nav-link" data-scroll-target="#computational-languages">Computational languages</a></li>
+  <li><a href="#computational-frameworks" id="toc-computational-frameworks" class="nav-link" data-scroll-target="#computational-frameworks">Computational frameworks</a></li>
+  <li><a href="#computational-resources-and-access-to-them" id="toc-computational-resources-and-access-to-them" class="nav-link" data-scroll-target="#computational-resources-and-access-to-them">Computational resources and access to them</a></li>
+  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">Data visualization</a></li>
+  <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices">Best practices</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tutorials</h1>
-<p class="subtitle lead">Frequently asked questions, tutorials and how-to’s</p>
-</div>
+<h1 class="title">Onboarding guide</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">best practices</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Miel Hostens, et al. </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 18, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -220,341 +192,97 @@ window.Quarto = {
 </header>
 
 
+<section id="bovi-analytics-onboarding-guide" class="level1">
+<h1>Bovi-Analytics onboarding guide</h1>
+<p>First of all, welcome!</p>
+<p>You might get overwhelmed at the beginning of this journey, but we are there to guide you through!</p>
+<section id="getting-started-at-the-bovi-analytics-lab" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started-at-the-bovi-analytics-lab">Getting started at the Bovi-Analytics lab</h2>
+<p>First, we want to tell the world you are part of the bovi-analytics team so you need to introduce yourself!</p>
+<ol type="1">
+<li><p>Create a <a href="https://github.com" class="uri">https://github.com</a> profile (if you don’t have one) and request Miel to be added to the Github bovi-analytics team. That way you can have access to all repositories.</p></li>
+<li><p>Create your own Quarto file (qmd extension) using R studio or any other text editor and a profile headshot <a href="https://github.com/Bovi-analytics/bovi-analytics-website" class="uri">https://github.com/Bovi-analytics/bovi-analytics-website</a></p>
+<ul>
+<li><p>Profile qmd file =&gt; <a href="https://github.com/Bovi-analytics/bovi-analytics-website/tree/main/researchers" class="uri">https://github.com/Bovi-analytics/bovi-analytics-website/tree/main/researchers</a></p></li>
+<li><p>Lab headshot in png format =&gt; <a href="https://github.com/Bovi-analytics/bovi-analytics-website/tree/main/files/img/headshots" class="uri">https://github.com/Bovi-analytics/bovi-analytics-website/tree/main/files/img/headshots</a></p></li>
+</ul></li>
+</ol>
+<p>You can also do this within GitHub directly nowadays</p>
+</section>
+<section id="bovi-analytics-team-communication" class="level2">
+<h2 class="anchored" data-anchor-id="bovi-analytics-team-communication">Bovi-analytics team communication</h2>
+<p>We use different ways to communicate, directly and indirectly. I (Miel) don’t like emails for direct communication. Similarly, I avoid sending files that need editing across teammates. Therefore, I started using several tools:</p>
+<ul>
+<li><p>Join Lab Teams Workspace</p>
+<ul>
+<li><p><a href="https://teams.microsoft.com/l/team/19%3ADgjxczayDb7qWX3CjUgADLD-mVOfl9L6HXSh8ivyOXA1%40thread.tacv2/conversations?groupId=28a31af6-2b6c-450f-8daf-4d916cc67f60&amp;tenantId=5d7e4366-1b9b-45cf-8e79-b14b27df46e1">Bovi-Analytics | General | Microsoft Teams</a></p></li>
+<li><p>Ask Miel or Enhong for guest access if you do not have a Cornell account</p></li>
+</ul>
+<p>We typically use this for project &amp; file management (and plan teams meetings of course)</p></li>
+<li><p>Join Lab Slack</p>
+<ul>
+<li>Ask Miel or Enhong for Slack invite (or use this link <a href="https://bovi-analytics.slack.com/" class="uri">https://bovi-analytics.slack.com/</a> )</li>
+</ul>
+<p>Slack was created before Teams was, and I have been using it for a while now. I prefer it over Teams for direct messaging.</p></li>
+</ul>
+</section>
+<section id="project-management" class="level2">
+<h2 class="anchored" data-anchor-id="project-management">Project management</h2>
+<p>I have been using several tools in the past, such as JIRA. Right now I’m using the Planner tool within the Office365 suite from Microsoft which is available for all Cornell personel and students via <a href="https://portal.office.com" class="uri">https://portal.office.com</a> . There you can create a planner for a project using e.g.&nbsp;KanBan project management. I like it that you can link it to a Teams project channel.</p>
+</section>
+<section id="computational-languages" class="level2">
+<h2 class="anchored" data-anchor-id="computational-languages">Computational languages</h2>
+<p>The team uses multiple languages but the most popular once are:</p>
+<ul>
+<li><p>R =&gt; for statistics, don’t use it for data intensive tasks!</p>
+<ul>
+<li>IDE = R-Studio</li>
+</ul></li>
+<li><p>Python =&gt; data pipelines, compute intensive, AI</p>
+<ul>
+<li>IDE =&gt; PyCharm</li>
+</ul></li>
+<li><p>Scala =&gt; scalable parallel processing of data</p>
+<ul>
+<li>IDE =&gt; IntelliJ IDEA</li>
+</ul></li>
+</ul>
+</section>
+<section id="computational-frameworks" class="level2">
+<h2 class="anchored" data-anchor-id="computational-frameworks">Computational frameworks</h2>
+<p>One of the most popular frameworks to perform ‘big data’ is <a href="https://spark.apache.org" class="uri">https://spark.apache.org</a> . It’s often used by Databricks. At a certain moment you might use it when you want to analyze data that doesn’t fit into your computer’s memory anymore.&nbsp;</p>
+</section>
+<section id="computational-resources-and-access-to-them" class="level2">
+<h2 class="anchored" data-anchor-id="computational-resources-and-access-to-them">Computational resources and access to them</h2>
+<ul>
+<li><p>Most of what we do computationally uses the Microsoft Azure cloud. You probably won’t need access to it, but it’s nice for you to understand what it is.</p></li>
+<li><p>One of the most important cloud-based tools you probably will use is Databricks. The platform allows you to perform data science in the cloud, and especially work together easily across the team.</p>
+<ul>
+<li><p>Start by trying it using the following guide =&gt; <a href="https://bovi-analytics.com/tutorials/databricks.html">Community Edition of Databricks</a></p></li>
+<li><p>Once you get use to this version we will introduce you to the entire platform here (<a href="https://adb-65044996157806.6.azuredatabricks.net/?o=65044996157806&amp;l=en">Databricks Cornell</a>), but it’s nice to start small</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="data-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="data-visualization">Data visualization</h2>
+<p>One of the very popular visualization tools we use is <a href="http://tableau.com" class="uri">http://tableau.com</a>. You can get a version of it using this tutorial (<a href="https://bovi-analytics.com/tutorials/tableau.html" class="uri">https://bovi-analytics.com/tutorials/tableau.html</a> )!</p>
+</section>
+<section id="best-practices" class="level2">
+<h2 class="anchored" data-anchor-id="best-practices">Best practices</h2>
+<ul>
+<li><p>Try to get familiar with the FAIR principles (<a href="https://www.go-fair.org/fair-principles/" class="uri">https://www.go-fair.org/fair-principles/</a> ) as they are an important part of the philosophy of the lab.</p></li>
+<li><p>Because of that</p>
+<ul>
+<li><p>Make sure to get used to work with version control using git. Follow some tutorials, try using it with R-studio, PyCharm, Intellij IDEA</p></li>
+<li><p>Within everything you do, start applying a naming convention as soon as possible (See here <a href="https://bovi-analytics.com/tutorials/general-naming-convention.html" class="uri">https://bovi-analytics.com/tutorials/general-naming-convention.html</a> ). Within your programming work, I can imagine you want to follow the guidelines within the programming language.</p></li>
+</ul></li>
+</ul>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="GitHub,R,Zenodo" data-listing-date-sort="1729224000000" data-listing-file-modified-sort="1729298012164" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<div class="thumbnail">
-<p><a href="../tutorials/github-r-zenodo.html" class="no-external"></a></p><a href="../tutorials/github-r-zenodo.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../tutorials/github-r-zenodo.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../tutorials/github-r-zenodo.html" class="no-external">Get started with Github, R and Zenodo</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../tutorials/github-r-zenodo.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('GitHub'); return false;">
-GitHub
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Zenodo'); return false;">
-Zenodo
-</div>
-</div>
-<div class="listing-description">
-<a href="../tutorials/github-r-zenodo.html" class="no-external">
-
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/e1GQgV7vSp0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-
-
-</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../tutorials/github-r-zenodo.html" class="no-external">
-<div class="listing-date">
-Oct 18, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="best practices" data-listing-date-sort="1729224000000" data-listing-file-modified-sort="1729298811208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="692">
-<div class="thumbnail">
-<p><a href="../tutorials/onboarding-guide.html" class="no-external"></a></p><a href="../tutorials/onboarding-guide.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../tutorials/onboarding-guide.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../tutorials/onboarding-guide.html" class="no-external">Onboarding guide</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../tutorials/onboarding-guide.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('best practices'); return false;">
-best practices
-</div>
-</div>
-<div class="listing-description">
-<a href="../tutorials/onboarding-guide.html" class="no-external">First of all, welcome!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../tutorials/onboarding-guide.html" class="no-external">
-<div class="listing-date">
-Oct 18, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Slack" data-listing-date-sort="1699851600000" data-listing-file-modified-sort="1699905230000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
-<div class="thumbnail">
-<p><a href="../tutorials/tableau.html" class="no-external"></a></p><a href="../tutorials/tableau.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../tutorials/tableau.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../tutorials/tableau.html" class="no-external">How to get an academic license for Tableau?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../tutorials/tableau.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Slack'); return false;">
-Slack
-</div>
-</div>
-<div class="listing-description">
-<a href="../tutorials/tableau.html" class="no-external">Tableau is a powerful data visualization and business intelligence software that allows users to connect, visualize, and share data in a way that facilitates understanding…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../tutorials/tableau.html" class="no-external">
-<div class="listing-date">
-Nov 13, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Databricks" data-listing-date-sort="1699246800000" data-listing-file-modified-sort="1699306850000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="207">
-<div class="thumbnail">
-<p><a href="../tutorials/databricks.html" class="no-external"></a></p><a href="../tutorials/databricks.html" class="no-external">
-<p class="card-img-top"><img src="images\Login1-01.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../tutorials/databricks.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../tutorials/databricks.html" class="no-external">Get started with Databricks</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../tutorials/databricks.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Databricks'); return false;">
-Databricks
-</div>
-</div>
-<div class="listing-description">
-<a href="../tutorials/databricks.html" class="no-external">Databricks is a unified data analytics and machine learning platform that is designed to simplify and accelerate data-driven decision-making for organizations. It was…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../tutorials/databricks.html" class="no-external">
-<div class="listing-date">
-Nov 6, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Best practice,R,Scala,Python" data-listing-date-sort="1690948800000" data-listing-file-modified-sort="1693912952000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="736">
-<div class="thumbnail">
-<p><a href="../tutorials/general-naming-convention.html" class="no-external"></a></p><a href="../tutorials/general-naming-convention.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../tutorials/general-naming-convention.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../tutorials/general-naming-convention.html" class="no-external">Naming conventions</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../tutorials/general-naming-convention.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Best practice'); return false;">
-Best practice
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Scala'); return false;">
-Scala
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
-Python
-</div>
-</div>
-<div class="listing-description">
-<a href="../tutorials/general-naming-convention.html" class="no-external">Naming conventions are essential for writing clean, readable, and maintainable code. They serve as guidelines for naming variables, functions, classes, and other identifiers…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../tutorials/general-naming-convention.html" class="no-external">
-<div class="listing-date">
-Aug 2, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="Best practice,Python" data-listing-date-sort="1690948800000" data-listing-file-modified-sort="1693912952000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="395">
-<div class="thumbnail">
-<p><a href="../tutorials/python-naming-convention.html" class="no-external"></a></p><a href="../tutorials/python-naming-convention.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../tutorials/python-naming-convention.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../tutorials/python-naming-convention.html" class="no-external">Python naming convention</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../tutorials/python-naming-convention.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Best practice'); return false;">
-Best practice
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
-Python
-</div>
-</div>
-<div class="listing-description">
-<a href="../tutorials/python-naming-convention.html" class="no-external">Yes, Python has well-established naming conventions outlined in PEP 8 (Python Enhancement Proposal 8). Following PEP 8 is highly recommended as it improves code readability…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../tutorials/python-naming-convention.html" class="no-external">
-<div class="listing-date">
-Aug 2, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="Best practice,R" data-listing-date-sort="1690948800000" data-listing-file-modified-sort="1693912952000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="368">
-<div class="thumbnail">
-<p><a href="../tutorials/r-naming-convention.html" class="no-external"></a></p><a href="../tutorials/r-naming-convention.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../tutorials/r-naming-convention.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../tutorials/r-naming-convention.html" class="no-external">R naming convention</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../tutorials/r-naming-convention.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Best practice'); return false;">
-Best practice
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="listing-description">
-<a href="../tutorials/r-naming-convention.html" class="no-external">In R, following consistent naming conventions is crucial for writing clean and readable code. While R doesn’t have strict guidelines like some other languages, there are…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../tutorials/r-naming-convention.html" class="no-external">
-<div class="listing-date">
-Aug 2, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="Best practice,Scala" data-listing-date-sort="1690948800000" data-listing-file-modified-sort="1693912952000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="429">
-<div class="thumbnail">
-<p><a href="../tutorials/scala-naming-convention.html" class="no-external"></a></p><a href="../tutorials/scala-naming-convention.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../tutorials/scala-naming-convention.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../tutorials/scala-naming-convention.html" class="no-external">Scala naming convention</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../tutorials/scala-naming-convention.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Best practice'); return false;">
-Best practice
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Scala'); return false;">
-Scala
-</div>
-</div>
-<div class="listing-description">
-<a href="../tutorials/scala-naming-convention.html" class="no-external">Scala also follows certain naming conventions that help maintain consistency and improve code readability. Here are some recommendations for Scala naming conventions:</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../tutorials/scala-naming-convention.html" class="no-external">
-<div class="listing-date">
-Aug 2, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="Slack" data-listing-date-sort="1690948800000" data-listing-file-modified-sort="1721260434055" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="452">
-<div class="thumbnail">
-<p><a href="../tutorials/slack.html" class="no-external"></a></p><a href="../tutorials/slack.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="../tutorials/slack.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../tutorials/slack.html" class="no-external">What is Slack, and why Slack?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../tutorials/slack.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Slack'); return false;">
-Slack
-</div>
-</div>
-<div class="listing-description">
-<a href="../tutorials/slack.html" class="no-external">Slack is a cloud-based collaboration and communication platform designed for teams and businesses. It is primarily used for workplace communication, enabling teams to…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../tutorials/slack.html" class="no-external">
-<div class="listing-date">
-Aug 2, 2023
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

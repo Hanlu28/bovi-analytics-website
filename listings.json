@@ -2,6 +2,8 @@
   {
     "listing": "/tutorials/index.html",
     "items": [
+      "/tutorials/github-r-zenodo.html",
+      "/tutorials/onboarding-guide.html",
       "/tutorials/tableau.html",
       "/tutorials/databricks.html",
       "/tutorials/general-naming-convention.html",

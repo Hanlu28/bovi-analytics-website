@@ -10,7 +10,132 @@
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Mon, 13 Nov 2023 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 18 Oct 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Get started with Github, R and Zenodo</title>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/github-r-zenodo.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="webinar" class="level1">
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/e1GQgV7vSp0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+
+</section>
+
+ ]]></description>
+  <category>GitHub</category>
+  <category>R</category>
+  <category>Zenodo</category>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/github-r-zenodo.html</guid>
+  <pubDate>Fri, 18 Oct 2024 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Onboarding guide</title>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/onboarding-guide.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="bovi-analytics-onboarding-guide" class="level1">
+<h1>Bovi-Analytics onboarding guide</h1>
+<p>First of all, welcome!</p>
+<p>You might get overwhelmed at the beginning of this journey, but we are there to guide you through!</p>
+<section id="getting-started-at-the-bovi-analytics-lab" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started-at-the-bovi-analytics-lab">Getting started at the Bovi-Analytics lab</h2>
+<p>First, we want to tell the world you are part of the bovi-analytics team so you need to introduce yourself!</p>
+<ol type="1">
+<li><p>Create a <a href="https://github.com" class="uri">https://github.com</a> profile (if you don’t have one) and request Miel to be added to the Github bovi-analytics team. That way you can have access to all repositories.</p></li>
+<li><p>Create your own Quarto file (qmd extension) using R studio or any other text editor and a profile headshot <a href="https://github.com/Bovi-analytics/bovi-analytics-website" class="uri">https://github.com/Bovi-analytics/bovi-analytics-website</a></p>
+<ul>
+<li><p>Profile qmd file =&gt; <a href="https://github.com/Bovi-analytics/bovi-analytics-website/tree/main/researchers" class="uri">https://github.com/Bovi-analytics/bovi-analytics-website/tree/main/researchers</a></p></li>
+<li><p>Lab headshot in png format =&gt; <a href="https://github.com/Bovi-analytics/bovi-analytics-website/tree/main/files/img/headshots" class="uri">https://github.com/Bovi-analytics/bovi-analytics-website/tree/main/files/img/headshots</a></p></li>
+</ul></li>
+</ol>
+<p>You can also do this within GitHub directly nowadays</p>
+</section>
+<section id="bovi-analytics-team-communication" class="level2">
+<h2 class="anchored" data-anchor-id="bovi-analytics-team-communication">Bovi-analytics team communication</h2>
+<p>We use different ways to communicate, directly and indirectly. I (Miel) don’t like emails for direct communication. Similarly, I avoid sending files that need editing across teammates. Therefore, I started using several tools:</p>
+<ul>
+<li><p>Join Lab Teams Workspace</p>
+<ul>
+<li><p><a href="https://teams.microsoft.com/l/team/19%3ADgjxczayDb7qWX3CjUgADLD-mVOfl9L6HXSh8ivyOXA1%40thread.tacv2/conversations?groupId=28a31af6-2b6c-450f-8daf-4d916cc67f60&amp;tenantId=5d7e4366-1b9b-45cf-8e79-b14b27df46e1">Bovi-Analytics | General | Microsoft Teams</a></p></li>
+<li><p>Ask Miel or Enhong for guest access if you do not have a Cornell account</p></li>
+</ul>
+<p>We typically use this for project &amp; file management (and plan teams meetings of course)</p></li>
+<li><p>Join Lab Slack</p>
+<ul>
+<li>Ask Miel or Enhong for Slack invite (or use this link <a href="https://bovi-analytics.slack.com/" class="uri">https://bovi-analytics.slack.com/</a> )</li>
+</ul>
+<p>Slack was created before Teams was, and I have been using it for a while now. I prefer it over Teams for direct messaging.</p></li>
+</ul>
+</section>
+<section id="project-management" class="level2">
+<h2 class="anchored" data-anchor-id="project-management">Project management</h2>
+<p>I have been using several tools in the past, such as JIRA. Right now I’m using the Planner tool within the Office365 suite from Microsoft which is available for all Cornell personel and students via <a href="https://portal.office.com" class="uri">https://portal.office.com</a> . There you can create a planner for a project using e.g.&nbsp;KanBan project management. I like it that you can link it to a Teams project channel.</p>
+</section>
+<section id="computational-languages" class="level2">
+<h2 class="anchored" data-anchor-id="computational-languages">Computational languages</h2>
+<p>The team uses multiple languages but the most popular once are:</p>
+<ul>
+<li><p>R =&gt; for statistics, don’t use it for data intensive tasks!</p>
+<ul>
+<li>IDE = R-Studio</li>
+</ul></li>
+<li><p>Python =&gt; data pipelines, compute intensive, AI</p>
+<ul>
+<li>IDE =&gt; PyCharm</li>
+</ul></li>
+<li><p>Scala =&gt; scalable parallel processing of data</p>
+<ul>
+<li>IDE =&gt; IntelliJ IDEA</li>
+</ul></li>
+</ul>
+</section>
+<section id="computational-frameworks" class="level2">
+<h2 class="anchored" data-anchor-id="computational-frameworks">Computational frameworks</h2>
+<p>One of the most popular frameworks to perform ‘big data’ is <a href="https://spark.apache.org" class="uri">https://spark.apache.org</a> . It’s often used by Databricks. At a certain moment you might use it when you want to analyze data that doesn’t fit into your computer’s memory anymore.&nbsp;</p>
+</section>
+<section id="computational-resources-and-access-to-them" class="level2">
+<h2 class="anchored" data-anchor-id="computational-resources-and-access-to-them">Computational resources and access to them</h2>
+<ul>
+<li><p>Most of what we do computationally uses the Microsoft Azure cloud. You probably won’t need access to it, but it’s nice for you to understand what it is.</p></li>
+<li><p>One of the most important cloud-based tools you probably will use is Databricks. The platform allows you to perform data science in the cloud, and especially work together easily across the team.</p>
+<ul>
+<li><p>Start by trying it using the following guide =&gt; <a href="https://bovi-analytics.com/tutorials/databricks.html">Community Edition of Databricks</a></p></li>
+<li><p>Once you get use to this version we will introduce you to the entire platform here (<a href="https://adb-65044996157806.6.azuredatabricks.net/?o=65044996157806&amp;l=en">Databricks Cornell</a>), but it’s nice to start small</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="data-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="data-visualization">Data visualization</h2>
+<p>One of the very popular visualization tools we use is <a href="http://tableau.com" class="uri">http://tableau.com</a>. You can get a version of it using this tutorial (<a href="https://bovi-analytics.com/tutorials/tableau.html" class="uri">https://bovi-analytics.com/tutorials/tableau.html</a> )!</p>
+</section>
+<section id="best-practices" class="level2">
+<h2 class="anchored" data-anchor-id="best-practices">Best practices</h2>
+<ul>
+<li><p>Try to get familiar with the FAIR principles (<a href="https://www.go-fair.org/fair-principles/" class="uri">https://www.go-fair.org/fair-principles/</a> ) as they are an important part of the philosophy of the lab.</p></li>
+<li><p>Because of that</p>
+<ul>
+<li><p>Make sure to get used to work with version control using git. Follow some tutorials, try using it with R-studio, PyCharm, Intellij IDEA</p></li>
+<li><p>Within everything you do, start applying a naming convention as soon as possible (See here <a href="https://bovi-analytics.com/tutorials/general-naming-convention.html" class="uri">https://bovi-analytics.com/tutorials/general-naming-convention.html</a> ). Within your programming work, I can imagine you want to follow the guidelines within the programming language.</p></li>
+</ul></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>best practices</category>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/onboarding-guide.html</guid>
+  <pubDate>Fri, 18 Oct 2024 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>How to get an academic license for Tableau?</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tableau.html</link>
