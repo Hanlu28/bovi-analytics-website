@@ -1,5 +1,5 @@
 ---
-title: "Tools"
+title: "Commonly used tools"
 subtitle: "Which tools are commony used by collaborators"
 sidebar: false
 toc: true
