@@ -223,6 +223,22 @@ Summer school -- Professional Certificate in Bioinformatics, University College 
 | Applied data science award from the Utrecht University to create the first LoraWAN network at the faculty of Veterinary Medicine.                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | €5.000      |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------+
 
+## PhD examination committee
+
+-   Dr. Ismalia Bouba, 2024 - A data driven apporach to understand factors influencing health, welfare and performance of laying hens and Pullets.
+
+-   Dr. Mingqi Zhang, 2024 - Inter-animal variability in metabolic and oxidative status as well as in inflammatory response in Holstein cattle during the transition period.
+
+-   Dr. Yujie Liu, 2022 - Cross-species combination of cohort and intervention studies to assess the fatty acid composition in various lipid fractions of the follicular fluid in relation to blood lipid composition and embryo quality
+
+-   Dr. Zhaoju Deng, 2021 - Improving udder health management in dairy herds with automatic milking systems.
+
+-   Dr. Marlene Tremblay, 2019 - Systematic pattern recognition and modeling with imperfect data: An integration of datascience, data mining, machine learning and epidemiology.
+
+-   Dr. Wei Xu, 2019 - Energy balance and metabolic status of dairy cows: a study using metabolomics, proteomics and machine learning approaches.
+
+-   Dr. Cyriel Ververs, 2018 - Breeding on the brink of extinction: what can we learn from game-ranched white rhinoceros (Ceratotherium simum simum)?´.
+
 ## Intellectual property and knowledge transfer
 
 In 2013, intellectual property created by my group on data processing and visualisation for dairy reproduction data, co-developed between Uniform-Agri (Assen, the Netherlands) and Ghent University, was transferred towards [www.DairyDataWarehouse.com](http://www.DairyDataWarehouse.com) (2007-2013). Dairy Data Warehouse nowadays is a specialist dairy data company providing digital solutions for a sustainable, profitable future for dairy farmers and stakeholders throughout the dairy industry.
