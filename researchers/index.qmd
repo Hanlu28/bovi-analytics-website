@@ -10,15 +10,17 @@ format:
 course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ---
 
-::: home
+:::::::::::::::::::::::: home
 ## Active researchers
 
-::: {.grid .active-researchers}
+::::::::::::::: {.grid .active-researchers}
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .miel-hostens}
 ### Miel Hostens
 
 [![](/files/img/headshots/MielHostens.png){fig-align="left" width="200"}](miel-hostens.html)
 :::
+
+## Post doc
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .enhong-liu}
 ### Enhong Liu
@@ -26,57 +28,78 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 [![](/files/img/headshots/EnhongLiu.png){fig-align="left" width="200"}](enhong-liu.html)
 :::
 
+## Graduate students
+
+### PhD
+
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .matthieu-salamone}
-### Matthieu Salamone
+#### Matthieu Salamone
 
 [![](/files/img/headshots/MatthieuSalamone.png){fig-align="left" width="200"}](mattieu-salamone.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .kristof-hermans}
-### Kristof Hermans
+#### Kristof Hermans
 
 ![](/files/img/headshots/KristofHermans.png){fig-align="left" width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .yara-sleghers}
-### Yara Sleghers
+#### Yara Sleghers
 
 ![](/files/img/headshots/YaraSleghers.png){fig-align="left" width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .saba-noor}
-### Saba Noor
+#### Saba Noor
 
 [![](/files/img/headshots/SabaNoor.png){fig-align="left" width="200"}](saba-noor.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .lucia-trapenese}
-### Lucia Trapenese
+#### Lucia Trapenese
 
 [![](/files/img/headshots/LuciaTrapenese.png){fig-align="left" width="200"}](lucia-trapenese.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .sonam-yang}
-### Sonam Yang
+#### Sonam Yang
+
 [![](/files/img/headshots/SonamYang.png){fig-align="left" width="200"}](sonam-yang.html)
 :::
 
+::: {.g-col-12 .g-col-md-4 .meike-van-leerdam}
+#### Meike van Leerdam
+
+[![](/files/img/headshots/MeikeVanLeerdam.png){fig-align="left" width="200"}](meike-van-leerdam.html)
+:::
+
+### MSc
+
+::: {.g-col-12 .g-col-md-4 .muhammad-azam}
+#### Muhammad Azam
+
+#### **Irene Gonzalez Ortega Villena** 
+:::
+
+## Undergraduate students
+
 ::: {.g-col-12 .g-col-md-4 .davey-seeman}
-### Davey Seeman
+#### Davey Seeman
 
 [![](/files/img/headshots/DaveySeeman.png){fig-align="left" width="200"}](davey-seeman.html)
 :::
 
-::: {.g-col-12 .g-col-md-4 .meike-van-leerdam}
-### Meike van Leerdam
+## Research interns
 
-[![](/files/img/headshots/MeikeVanLeerdam.png){fig-align="left" width="200"}](meike-van-leerdam.html)
+::: {.g-col-12 .g-col-md-4 .open-position}
+#### Open position
 :::
-:::
+:::::::::::::::
 
-## Previous researchers
+## Lab alumni
 
-::: {.grid .past-researchers}
+:::::::::: {.grid .alumni}
 ::: {.g-col-12 .g-col-md-4 .yongyan-chen}
 ### YongYan Chen
 
@@ -118,5 +141,5 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 
 [![](/files/img/headshots/ArnoLiseune.png){fig-align="left" width="200"}](arno-liseune.html)
 :::
-:::
-:::
+::::::::::
+::::::::::::::::::::::::
