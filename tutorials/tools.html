@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-11-06">
 <meta name="description" content="Use modern data analytical tools for dairy science">
 
-<title>Get started with Databricks – Bovi-Analytics</title>
+<title>Commonly used tools – Bovi-Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -129,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -137,75 +136,90 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#get-started" id="toc-get-started" class="nav-link" data-scroll-target="#get-started">Get started</a></li>
-  <li><a href="#how-to-add-other-people-to-your-workspace" id="toc-how-to-add-other-people-to-your-workspace" class="nav-link" data-scroll-target="#how-to-add-other-people-to-your-workspace">How to add other people to your workspace</a></li>
+  <li><a href="#programming-languages" id="toc-programming-languages" class="nav-link active" data-scroll-target="#programming-languages"><strong>Programming languages</strong></a></li>
+  <li><a href="#local-processing-when-data-fits-on-prem" id="toc-local-processing-when-data-fits-on-prem" class="nav-link" data-scroll-target="#local-processing-when-data-fits-on-prem">Local processing (when data fits on-prem)</a>
+  <ul class="collapse">
+  <li><a href="#development-environments" id="toc-development-environments" class="nav-link" data-scroll-target="#development-environments"><strong>Development environments</strong></a></li>
+  </ul></li>
+  <li><a href="#clould-processing-when-data-doesnt-fit-on-prem" id="toc-clould-processing-when-data-doesnt-fit-on-prem" class="nav-link" data-scroll-target="#clould-processing-when-data-doesnt-fit-on-prem">Clould processing (when data doesn’t fit on-prem)</a>
+  <ul class="collapse">
+  <li><a href="#data-processing-framework" id="toc-data-processing-framework" class="nav-link" data-scroll-target="#data-processing-framework"><strong>Data processing framework</strong></a></li>
+  </ul></li>
+  <li><a href="#others-tools" id="toc-others-tools" class="nav-link" data-scroll-target="#others-tools"><strong>Others tools</strong></a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Get started with Databricks</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Databricks</div>
-  </div>
-  </div>
-
-
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Miel Hostens, et al. </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 6, 2023</p>
+<div class="grid title-block">
+    <div class="course-details-title-block g-col-12 g-col-sm-8 order-2 order-sm-1 text-center text-sm-start">
+        <h1 class="course-title">
+            Commonly used tools
+        </h1>
+        <div class="course-subtitle">
+            <p>Which tools are commony used by collaborators</p>
+        </div>
+        <div class="course-meta">
+            <p></p>
+        </div>
     </div>
-  </div>
-  
-    
-  </div>
-  
+    <div class="g-col-12 g-col-sm-4 order-1 order-sm-2">
+      <div class="grid" style="--bs-columns: 5;">
+        <div class="g-col-1 g-col-sm-0"></div>
+        <div class="g-col-3 g-col-sm-5"><img src="../files/img/Bovi-Analytics-SmallLogo.png" class="img-fluid"></div>
+        <div class="g-col-1 g-col-sm-0"></div>
+      </div>
+    </div>
+</div>
 
 
-</header>
-
-
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>Databricks is a unified data analytics and machine learning platform that is designed to simplify and accelerate data-driven decision-making for organizations. It was founded by the creators of Apache Spark, a popular open-source big data processing framework. Databricks builds on Spark and provides an integrated environment for data engineering, data science, and business intelligence.</p>
+<section id="programming-languages" class="level2">
+<h2 class="anchored" data-anchor-id="programming-languages"><strong>Programming languages</strong></h2>
+<p>In the early ages of my programming I started programming in VB.NEt, did most of my statistics in SAS for most of my PhD studies. However, as open source became mainstream I have switched (maybe to often). Nowadays, I tend to advice on using several languages. Once you know 1, switching is more easy. And there is always <a href="https://stackoverflow.com/">StackOverflow</a>!</p>
+<ul>
+<li><p><a href="https://www.r-project.org/other-docs.html" class="uri">[R]</a> when using smaller datasets that need quick and dirty frequentist statistics. Often rendered using <a href="https://rmarkdown.rstudio.com/lesson-10.html">Rmd notebooks</a> and pushed to Github, e.g.</p>
+<ul>
+<li><a href="https://github.com/Bovi-analytics/Salamone-et-al-2023">Salamone et al</a></li>
+</ul></li>
+<li><p><a href="https://docs.python.org/3/" class="uri">Python</a> and <a href="https://spark.apache.org/docs/latest/api/python/">PySpark</a> for many of the neural net studies, e.g.</p>
+<ul>
+<li><a href="https://github.com/Bovi-analytics/van-leerdam-et-al">van Leerdam et al</a></li>
+</ul></li>
+<li><p><a href="https://docs.scala-lang.org/" class="uri">Scala language</a> when performing more complex data engeneering projects, e.g.</p></li>
+</ul>
 </section>
-<section id="get-started" class="level1">
-<h1>Get started</h1>
-<p>To sign up for Databricks Community Edition:</p>
-<ol type="1">
-<li><p>Click ‘Try Databricks’ <a href="https://www.databricks.com/try-databricks#account">here</a>.</p></li>
-<li><p>Enter your name, company, email, and title, and click Continue.</p>
-<p><img src="images/Login1-01.jpg" class="img-fluid"></p></li>
-<li><p><strong>VERY IMPORTANT.</strong> On the Choose a cloud provider dialog, click the “Get started with Community Edition” link. You’ll see a page announcing that an email has been sent to the address you provided.</p>
-<p><img src="images/Login2.jpg" class="img-fluid"></p></li>
-<li><p>Look for the welcome email and click the link to verify your email address. You are prompted to create your Databricks password.</p></li>
-<li><p>When you click <strong>Submit</strong>, you'll be taken to the Databricks Community Edition home page.When you click Submit, you’ll be taken to the Databricks Community Edition home page.</p>
-<p><img src="https://docs.databricks.com/en/_images/landing-aws-ce.png" class="img-fluid"></p></li>
-</ol>
+<section id="local-processing-when-data-fits-on-prem" class="level2">
+<h2 class="anchored" data-anchor-id="local-processing-when-data-fits-on-prem">Local processing (when data fits on-prem)</h2>
+<section id="development-environments" class="level3">
+<h3 class="anchored" data-anchor-id="development-environments"><strong>Development environments</strong></h3>
+<p>For my local processsing, I combine multiple IDE’s. I tried one-size-fits-all approaches such as visual studio but ended up using the following options.</p>
+<ul>
+<li><p>Python -&gt; <a href="https://www.jetbrains.com/pycharm/">Pycharm</a> -&gt; <a href="https://jupyter.org/" class="uri">Jupyter notebook</a></p></li>
+<li><p>[R] -&gt; <a href="https://posit.co/download/rstudio-desktop/" class="uri">R Studio</a></p></li>
+<li><p>Scala -&gt; <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a></p></li>
+</ul>
 </section>
-<section id="how-to-add-other-people-to-your-workspace" class="level1">
-<h1>How to add other people to your workspace</h1>
-<ol type="1">
-<li><p>Move to your user profile on the upper right corner.</p></li>
-<li><p>Click on ‘Admin Settings’</p></li>
-<li><p>Click ‘Add user’</p>
-<p><img src="https://i.stack.imgur.com/qqv0L.png" class="img-fluid"></p></li>
-</ol>
+</section>
+<section id="clould-processing-when-data-doesnt-fit-on-prem" class="level2">
+<h2 class="anchored" data-anchor-id="clould-processing-when-data-doesnt-fit-on-prem">Clould processing (when data doesn’t fit on-prem)</h2>
+<section id="data-processing-framework" class="level3">
+<h3 class="anchored" data-anchor-id="data-processing-framework"><strong>Data processing framework</strong></h3>
+<ul>
+<li><p>Python and [R] can be easily used through <a href="https://colab.google/" class="uri">Google Colab</a>.</p></li>
+<li><p>Python, [R] and scala can be performed on <a href="https://community.cloud.databricks.com/">Databricks Community for students</a>. Apply for the community edition <a href="https://docs.databricks.com/getting-started/community-edition.html">here</a>, be sure not the click any of the providers (Google, Amazon, Azure) but select the <strong>‘Get started with Community Edition’.</strong></p></li>
+<li><p>When in need of larger scale processing power I love to use Apache Spark for distributed analysis and parallel processing using the <a href="https://spark.apache.org/">Apache Spark</a> on <a href="https://azure.microsoft.com/en-us/products/databricks">Azure Databricks</a>.</p></li>
+<li><p><a href="https://azure.microsoft.com/nl-nl">Microsoft Azure</a> as current cloud platform.</p></li>
+</ul>
+</section>
+</section>
+<section id="others-tools" class="level2">
+<h2 class="anchored" data-anchor-id="others-tools"><strong>Others tools</strong></h2>
+<ul>
+<li><a href="https://github.com/" class="uri">Github</a> as code repository, this website is hosted through github pages.</li>
+<li>This website is build using <a href="https://quarto.org/" class="uri">Quarto</a>, a new tool integrated well in R studio and others.</li>
+<li>Markdown ( <a href="https://www.markdownguide.org/" class="uri">https://www.markdownguide.org/</a> ).</li>
+</ul>
 
 
 </section>
