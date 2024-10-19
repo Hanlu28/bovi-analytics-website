@@ -10,10 +10,63 @@
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/open-positions/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Mon, 01 Jan 2024 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 18 Oct 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Research intern</title>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/open-positions/internship.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>The Cornell Internship Program in Digital Dairy Management and Data Analytics is committed to investing in the development of future data scientists and bio-informatici through a limited term internship experience. The intention of the internship is to give the intern an experience of learning. It offers an opportunity to gain practical insights into the field of Digital Dairy Management and Data Analytics. This experience equips interns with skills that are essential for professional practice. The knowledge and skills acquired during this internship are valuable for the intern’s ongoing studies and future career.</p>
+<p>The primary goal of this internship is to continue earlier work performed at the lab on digital twins for dairy cows. This will be achieved by learning new programming skills related to data science in the field of animal science. The aim of the project is to upgrade the digital twin model to effectively mirror the health, well-being, and productivity of individual cows. This will be facilitated through collaboration and acquiring new skills from multiple experts in the fields of data science, veterinary medicine, and sensor technology.</p>
+</section>
+<section id="expected-phases-andor-goals" class="level2">
+<h2 class="anchored" data-anchor-id="expected-phases-andor-goals">Expected phases and/or goals</h2>
+<section id="orientation" class="level3">
+<h3 class="anchored" data-anchor-id="orientation">Orientation</h3>
+<p>The intern is expected to actively engage by listening attentively, asking questions, and being respectful of the individuals those they encounter. The aim is for the intern to develop familiarity and confidence in navigating the work environment, and interacting with colleagues.</p>
+</section>
+<section id="cultural-orientation." class="level3">
+<h3 class="anchored" data-anchor-id="cultural-orientation.">Cultural orientation.</h3>
+<p>As it is expected that many interns will be from foreign countries, some orientation to American culture per se is useful. Much of this will come from the intern’s living situation (campus housing, roommates, etc.). The Cornell community is overloaded with lectures, plays, musical events, etc., and the participant will be able to experience any of these, per their interest.</p>
+</section>
+<section id="learning-goals-and-objectives-for-the-intern-during-the-training-program." class="level3">
+<h3 class="anchored" data-anchor-id="learning-goals-and-objectives-for-the-intern-during-the-training-program.">Learning goals and objectives for the intern during the training program.</h3>
+<p>The overarching goal is for the intern to develop and practice research skills as might be utilized in future advanced studies in a career in applied bio-informatics, data science, animal and/or dairy sciene. This internship assignment provides the intern with an opportunity to learn in a professional setting. By participating in the internship, the intern gains the chance to engage with field experts, and learning from their expertise.</p>
+<p>Additionally, interns will further develop their critical thinking and communication skills, reading in English, interpreting experimental procedures from written protocols, and their ability to ask research questions. Most of these skills are obtained from ongoing conversations and evaluations with Dr.&nbsp;Hostens and his graduate students and research staff, a process that continues through the entirety of the internship.</p>
+</section>
+<section id="role-of-the-intern." class="level3">
+<h3 class="anchored" data-anchor-id="role-of-the-intern.">Role of the intern.</h3>
+<p>The overall role of the intern is to be eager, aware, proactive, and supportive of the program we will jointly develop. During the internship, the intern will focus on the project. This will be achieved by learning new programming skills, understanding algorithms, analyzing data, and drawing conclusions from it. The intern also needs to document their work, preferentially through github, give a final presentation, and if requested write a report. It’s important for the intern to keep their data organized and make sure the plans are realistic. Additionally, strong teamwork and effective communication skills are key factors in their success.</p>
+</section>
+<section id="evaluation." class="level3">
+<h3 class="anchored" data-anchor-id="evaluation.">Evaluation.</h3>
+<p>How will acquisition of skills be evaluated?</p>
+<p>Skills acquisition will be evaluated through both a mid-term and a final evaluation.</p>
+<p>The mid-term evaluation meeting will be scheduled in the first half of the internship. This meeting encompasses discussions about the progress of the project, advancements in the internship report, and personal growth. This meeting will include Dr, Hostens, the intern. Dr.&nbsp;Hostens will also complete an evaluation form, offering feedback essential for the intern’s progression. It is expected that the intern will actively engage with this feedback to facilitate further development.</p>
+<p>At the end of the internship Dr.&nbsp;Hostens will conduct a final assessment of the practical work delivered by the intern. This assessment will be signed and graded, serving as a comprehensive evaluation of the intern’s performance.</p>
+<p>During the internship, the intern will keep track of how the project is going and note any difficulties they encounter. This helps the intern to make progress in developing skills and knowledge. The intern will also make an report about the project and give a final presentation.</p>
+<p>These evaluation processes are fundamental to monitoring and assessing the intern’s progress, ensuring they acquire necessary skills and meet the internship program’s objectives effectively.</p>
+<p>Additional information can be requested at <a href="mailto:miel.hostens@cornell.edu">miel.hostens@cornell.edu</a></p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Intern</category>
+  <category>Open</category>
+  <category>Cornell University</category>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/open-positions/internship.html</guid>
+  <pubDate>Fri, 18 Oct 2024 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Post-doc</title>
-  <link>https://github.com/Bovi-analytics/bovi-analytics-website/open-positions/post-doc.html</link>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/open-positions/archived/post-doc.html</link>
   <description><![CDATA[ 
 
 
@@ -47,7 +100,7 @@
   <category>Post-doc</category>
   <category>Open</category>
   <category>Cornell University</category>
-  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/open-positions/post-doc.html</guid>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/open-positions/archived/post-doc.html</guid>
   <pubDate>Mon, 01 Jan 2024 05:00:00 GMT</pubDate>
 </item>
 </channel>
