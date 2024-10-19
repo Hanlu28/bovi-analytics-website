@@ -27,8 +27,6 @@ website:
         file: open-positions/index.qmd
       - text: "Projects"
         file: projects/index.qmd
-      - text: "Tools"
-        file: tools/index.qmd
       - text: "Tutorials"
         file: tutorials/index.qmd
       - icon: slack
