@@ -1,101 +1,109 @@
 ---
 title: "Researchers"
-sidebar: false
-toc: false
+subtitle: "This is a list of all active researchers and alumni of the lab"
 page-layout: full
-format:
-  html:
-    template-partials:
-      - /html/home/title-block.html
-course-logo: /files/img/Bovi-Analytics-SmallLogo.png
+toc: true
 ---
+# test
 
-:::::::::::::::::::::::: home
-## Active researchers
+::::::::::::::::::::::::::::: home
+## Senior researchers
 
-::::::::::::::: {.grid .active-researchers}
-::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .miel-hostens}
+::::: {.grid .senior-researchers}
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .enhong-liu}
 ### Miel Hostens
 
 [![](/files/img/headshots/MielHostens.png){fig-align="left" width="200"}](miel-hostens.html)
 :::
-
-## Post doc
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .enhong-liu}
 ### Enhong Liu
 
 [![](/files/img/headshots/EnhongLiu.png){fig-align="left" width="200"}](enhong-liu.html)
 :::
+:::::
 
-## Graduate students
+## Graduate students - PhD
 
-### PhD
-
+:::::::::: {.grid .graduate-students-phd}
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .matthieu-salamone}
-#### Matthieu Salamone
+### Matthieu Salamone
 
 [![](/files/img/headshots/MatthieuSalamone.png){fig-align="left" width="200"}](mattieu-salamone.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .kristof-hermans}
-#### Kristof Hermans
+### Kristof Hermans
 
 ![](/files/img/headshots/KristofHermans.png){fig-align="left" width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .yara-sleghers}
-#### Yara Sleghers
+### Yara Sleghers
 
 ![](/files/img/headshots/YaraSleghers.png){fig-align="left" width="200"}
 :::
 
 ::: {.g-col-12 .g-col-md-4 .saba-noor}
-#### Saba Noor
+### Saba Noor
 
 [![](/files/img/headshots/SabaNoor.png){fig-align="left" width="200"}](saba-noor.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .lucia-trapenese}
-#### Lucia Trapenese
+### Lucia Trapenese
 
 [![](/files/img/headshots/LuciaTrapenese.png){fig-align="left" width="200"}](lucia-trapenese.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .sonam-yang}
-#### Sonam Yang
+### Sonam Yang
 
 [![](/files/img/headshots/SonamYang.png){fig-align="left" width="200"}](sonam-yang.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .meike-van-leerdam}
-#### Meike van Leerdam
+### Meike van Leerdam
 
 [![](/files/img/headshots/MeikeVanLeerdam.png){fig-align="left" width="200"}](meike-van-leerdam.html)
 :::
+::::::::::
 
-### MSc
+## Graduate students - MsC
 
+::::: {.grid .graduate-students-phd}
 ::: {.g-col-12 .g-col-md-4 .muhammad-azam}
-#### Muhammad Azam
+### Muhammad Azam
 
-#### **Irene Gonzalez Ortega Villena** 
+![](/files/img/headshots/Missing.png){width="200"}
 :::
+
+::: {.g-col-12 .g-col-md-4 .irene-gonzalez-ortega-Villena}
+### Irene Gonzalez Ortega Villena
+
+![](/files/img/headshots/Missing.png){width="200"}
+:::
+:::::
 
 ## Undergraduate students
 
+:::: {.grid .undergraduate-students}
 ::: {.g-col-12 .g-col-md-4 .davey-seeman}
-#### Davey Seeman
+### Davey Seeman
 
 [![](/files/img/headshots/DaveySeeman.png){fig-align="left" width="200"}](davey-seeman.html)
 :::
+::::
 
 ## Research interns
 
+:::: {.grid .research-interns}
 ::: {.g-col-12 .g-col-md-4 .open-position}
-#### Open position
+### Open position
+
+![](/files/img/Bovi-Analytics-SmallLogo.png){width="200"}
 :::
-:::::::::::::::
+::::
 
 ## Lab alumni
 
@@ -142,4 +150,4 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 [![](/files/img/headshots/ArnoLiseune.png){fig-align="left" width="200"}](arno-liseune.html)
 :::
 ::::::::::
-::::::::::::::::::::::::
+:::::::::::::::::::::::::::::
