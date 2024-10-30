@@ -75,7 +75,7 @@ toc: true
 ::: {.g-col-12 .g-col-md-4 .muhammad-azam}
 ### Muhammad Azam
 
-![](/files/img/headshots/Missing.png){width="200"}
+![](/files/img/headshots/Missing.png){width="200"}(aslam-muhammad-azam.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .irene-gonzalez-ortega-Villena}
