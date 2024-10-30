@@ -1,0 +1,40 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "37330573-e3e1-4347-a2ef-9703fcb1f39f",
+   "metadata": {},
+   "source": [
+    "---\n",
+    "title: \"Muhammad Azam Aslam\"\n",
+    "catergories:\n",
+    "    - Data Science\n",
+    "    - Electrical & Electronics\n",
+    "author: \"Muhammad Azam Aslam\"\n",
+    "date: 10/17/24\n",
+    "format: html\n",
+    "editor: visual\n",
+    "---\n",
+    "\n",
+    "### Who am I\n",
+    "\n",
+    "Hi, I’m Muhammad Azam Aslam, currently on a Data Science adventure in Italy, pursuing my Master’s at the Università Degli Studi Di Napoli Federico II. After nearly eight years in the world of Electrical and Electronics Engineering—balancing both academic and professional hats—I decided it was time to give in to my curiosity (or obsession?) with Data Science. I’ve got a serious soft spot for IoT, and robots are one of my great loves. I’m passionate about Data Science and automating anything I can get my hands on, which is what eventually led me to Artificial Intelligence—because who doesn’t want smart robots doing all the work for them?\n",
+    "\n",
+    "### My work at Bovi-Analytics\n",
+    "\n",
+    "I joined Bovi-Analytics as a research intern, where my job is to dive into mountains of data tossed my way by the Bovi team. My mission? To spot patterns in cow behavior and natural cycles and figure out how this influence their lactation periods—because who wouldn’t want to be a cow data detective? Fingers crossed that I’ll build a model to make this process smoother… and maybe keep me from drowning in data!"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "",
+   "name": ""
+  },
+  "language_info": {
+   "name": ""
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
