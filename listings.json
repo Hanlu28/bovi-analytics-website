@@ -1,16 +1,16 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/decide.html",
-      "/projects/veerkracht.html"
-    ]
-  },
-  {
     "listing": "/open-positions/index.html",
     "items": [
       "/open-positions/internship.html",
       "/open-positions/archived/post-doc.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/decide.html",
+      "/projects/veerkracht.html"
     ]
   },
   {
