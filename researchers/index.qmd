@@ -3,10 +3,14 @@ title: "Researchers"
 subtitle: "This is a list of all active researchers and alumni of the lab"
 page-layout: full
 toc: true
+toc-depth: 1
+format:
+  html:
+    template-partials:
+      - /html/home/title-block.html
+course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ---
-# test
 
-::::::::::::::::::::::::::::: home
 ## Senior researchers
 
 ::::: {.grid .senior-researchers}
@@ -23,7 +27,7 @@ toc: true
 :::
 :::::
 
-## Graduate students - PhD
+## Graduate students PhD
 
 :::::::::: {.grid .graduate-students-phd}
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .matthieu-salamone}
@@ -69,19 +73,19 @@ toc: true
 :::
 ::::::::::
 
-## Graduate students - MsC
+## Graduate students MsC
 
 ::::: {.grid .graduate-students-phd}
 ::: {.g-col-12 .g-col-md-4 .muhammad-azam}
 ### Muhammad Azam
 
-![](/files/img/headshots/Missing.png){width="200"}(aslam-muhammad-azam.html)
+[![](/files/img/headshots/Missing.png){width="100"}](aslam-muhammad-azam.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .irene-gonzalez-ortega-Villena}
 ### Irene Gonzalez Ortega Villena
 
-![](/files/img/headshots/Missing.png){width="200"}
+![](/files/img/headshots/Missing.png){width="100"}
 :::
 :::::
 
@@ -101,7 +105,7 @@ toc: true
 ::: {.g-col-12 .g-col-md-4 .open-position}
 ### Open position
 
-![](/files/img/Bovi-Analytics-SmallLogo.png){width="200"}
+[![](/files/img/headshots/You.png){width="100"}](https://bovi-analytics.com/open-positions/internship.html)
 :::
 ::::
 
@@ -150,4 +154,3 @@ toc: true
 [![](/files/img/headshots/ArnoLiseune.png){fig-align="left" width="200"}](arno-liseune.html)
 :::
 ::::::::::
-:::::::::::::::::::::::::::::
