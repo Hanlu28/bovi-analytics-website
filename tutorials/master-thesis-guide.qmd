@@ -1,0 +1,58 @@
+---
+title: "Research paper guidelines"
+execute:
+  eval: false
+categories:
+  - best practices
+authors: Miel Hostens, et al.
+date: 11/2/24
+toc: true
+---
+
+# Research paper guidelines
+
+First of all, probably you know but for each of the universities I work with there are some general guidelines
+
+-   [Ghent University Guidelines](https://www.ugent.be/bw/en/for-students/curriculum/master-dissertation/writtendissertation)
+
+-   [Utrecht University](https://www.uu.nl/en/university-library/advice-support-to/students/student-theses)
+
+-   [Cornell University](https://gradschool.cornell.edu/academic-progress/thesis-dissertation/)
+
+## Some general methodology advise
+
+-   Start using a notebook (Rmd/Ipynb) to document your methodology. These papers are examples which you can read the code and resulting articles from:
+
+    -   Paper by [Hut et al. 2022](https://doi.org/10.1371/journal.pone.0264392) and its [methodology on GitHub](https://github.com/Bovi-analytics/hut-et-al-2021)
+
+-   Standardize your dataset and apply a [CamelCase](https://en.wikipedia.org/wiki/Camel_case) naming convention in ENGLISH.
+
+-   Read the [FAIR principle paper](https://www.nature.com/articles/sdata201618) in Nature and [guidelines](https://www.go-fair.org/wp-content/uploads/2022/01/FAIRPrinciples_overview.pdf) and make sure you understand how this is related to your work!
+
+-   One of the very popular visualization tools we use is <http://tableau.com>. You can get a version of it using this tutorial (<https://bovi-analytics.com/tutorials/tableau.html> )! Start working with it to create descriptive statistics.
+
+-   Create a repository in the [Bovi-Analytics Github repository](https://github.com/bovi-analytics) (or ask someone to do it)
+
+    -   Make it private first (we can decide to make it public when feasible)
+
+    -   Add a [CC-BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en) licence to the repository, this can be done by adding a file named LICENSE (!without extension), which has [this](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.txt) content.
+
+    -   You can checkout other people's repositories on [our github](https://github.com/bovi-analytics) account to start exploring similar work.
+
+-   Create a final version of the notebook and submit it to the repository. I aim to start grading this as part of the thesis.
+
+-   When writing down data from dairy, you probably will have inclusion and exclusion criteria being applied. Try to make this as transparent as possible e.g. by creating a data flow chart. See example [here](https://www.sciencedirect.com/science/article/pii/S0022030224006398#fig1).
+
+## Some general writing advise
+
+-   Often less is more!
+
+-   First of all, use AI tools to aid your writing, not to do the writing for you.
+
+-   When you start writing, choose one specific time in which you write. Don't combine present and past time. My personal preference is the past time.
+
+-   Make a clear distinction between the materials&methods and results section. Try to split these 2 clearly.
+
+-   When adding figures in word, use a 1-column, 2-row table (with transparent borders) where you put the figure in the first cell, the figure caption in the second cell, that way they will always move together, and it's more easy to format.
+
+-   Work on your graphics (see [this](https://bvajournals.onlinelibrary.wiley.com/doi/10.1136/inp.k2166) article for some guidance). Make sure to make use of the data-to-ink-ratio concept.
