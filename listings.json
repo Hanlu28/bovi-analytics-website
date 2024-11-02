@@ -1,8 +1,18 @@
 [
   {
-    "listing": "/open-positions/index.html",
+    "listing": "/tutorials/index.html",
     "items": [
-      "/open-positions/internship.html"
+      "/tutorials/tools.html",
+      "/tutorials/master-thesis-guide.html",
+      "/tutorials/github-r-zenodo.html",
+      "/tutorials/onboarding-guide.html",
+      "/tutorials/tableau.html",
+      "/tutorials/databricks.html",
+      "/tutorials/general-naming-convention.html",
+      "/tutorials/python-naming-convention.html",
+      "/tutorials/r-naming-convention.html",
+      "/tutorials/scala-naming-convention.html",
+      "/tutorials/slack.html"
     ]
   },
   {
@@ -13,18 +23,9 @@
     ]
   },
   {
-    "listing": "/tutorials/index.html",
+    "listing": "/open-positions/index.html",
     "items": [
-      "/tutorials/tools.html",
-      "/tutorials/github-r-zenodo.html",
-      "/tutorials/onboarding-guide.html",
-      "/tutorials/tableau.html",
-      "/tutorials/databricks.html",
-      "/tutorials/general-naming-convention.html",
-      "/tutorials/python-naming-convention.html",
-      "/tutorials/r-naming-convention.html",
-      "/tutorials/scala-naming-convention.html",
-      "/tutorials/slack.html"
+      "/open-positions/internship.html"
     ]
   }
 ]

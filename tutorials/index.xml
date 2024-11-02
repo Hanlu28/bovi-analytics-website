@@ -10,7 +10,63 @@
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Fri, 18 Oct 2024 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 02 Nov 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Research paper guidelines</title>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/master-thesis-guide.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="research-paper-guidelines" class="level1">
+<h1>Research paper guidelines</h1>
+<p>First of all, probably you know but for each of the universities I work with there are some general guidelines</p>
+<ul>
+<li><p><a href="https://www.ugent.be/bw/en/for-students/curriculum/master-dissertation/writtendissertation">Ghent University Guidelines</a></p></li>
+<li><p><a href="https://www.uu.nl/en/university-library/advice-support-to/students/student-theses">Utrecht University</a></p></li>
+<li><p><a href="https://gradschool.cornell.edu/academic-progress/thesis-dissertation/">Cornell University</a></p></li>
+</ul>
+<section id="some-general-methodology-advise" class="level2">
+<h2 class="anchored" data-anchor-id="some-general-methodology-advise">Some general methodology advise</h2>
+<ul>
+<li><p>Start using a notebook (Rmd/Ipynb) to document your methodology. These papers are examples which you can read the code and resulting articles from:</p>
+<ul>
+<li>Paper by <a href="https://doi.org/10.1371/journal.pone.0264392">Hut et al.&nbsp;2022</a> and its <a href="https://github.com/Bovi-analytics/hut-et-al-2021">methodology on GitHub</a></li>
+</ul></li>
+<li><p>Standardize your dataset and apply a <a href="https://en.wikipedia.org/wiki/Camel_case">CamelCase</a> naming convention in ENGLISH.</p></li>
+<li><p>Read the <a href="https://www.nature.com/articles/sdata201618">FAIR principle paper</a> in Nature and <a href="https://www.go-fair.org/wp-content/uploads/2022/01/FAIRPrinciples_overview.pdf">guidelines</a> and make sure you understand how this is related to your work!</p></li>
+<li><p>One of the very popular visualization tools we use is <a href="http://tableau.com" class="uri">http://tableau.com</a>. You can get a version of it using this tutorial (<a href="https://bovi-analytics.com/tutorials/tableau.html" class="uri">https://bovi-analytics.com/tutorials/tableau.html</a> )! Start working with it to create descriptive statistics.</p></li>
+<li><p>Create a repository in the <a href="https://github.com/bovi-analytics">Bovi-Analytics Github repository</a> (or ask someone to do it)</p>
+<ul>
+<li><p>Make it private first (we can decide to make it public when feasible)</p></li>
+<li><p>Add a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">CC-BY-NC-ND</a> licence to the repository, this can be done by adding a file named LICENSE (!without extension), which has <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.txt">this</a> content.</p></li>
+<li><p>You can checkout other people’s repositories on <a href="https://github.com/bovi-analytics">our github</a> account to start exploring similar work.</p></li>
+</ul></li>
+<li><p>Create a final version of the notebook and submit it to the repository. I aim to start grading this as part of the thesis.</p></li>
+<li><p>When writing down data from dairy, you probably will have inclusion and exclusion criteria being applied. Try to make this as transparent as possible e.g.&nbsp;by creating a data flow chart. See example <a href="https://www.sciencedirect.com/science/article/pii/S0022030224006398#fig1">here</a>.</p></li>
+</ul>
+</section>
+<section id="some-general-writing-advise" class="level2">
+<h2 class="anchored" data-anchor-id="some-general-writing-advise">Some general writing advise</h2>
+<ul>
+<li><p>Often less is more!</p></li>
+<li><p>First of all, use AI tools to aid your writing, not to do the writing for you.</p></li>
+<li><p>When you start writing, choose one specific time in which you write. Don’t combine present and past time. My personal preference is the past time.</p></li>
+<li><p>Make a clear distinction between the materials&amp;methods and results section. Try to split these 2 clearly.</p></li>
+<li><p>When adding figures in word, use a 1-column, 2-row table (with transparent borders) where you put the figure in the first cell, the figure caption in the second cell, that way they will always move together, and it’s more easy to format.</p></li>
+<li><p>Work on your graphics (see <a href="https://bvajournals.onlinelibrary.wiley.com/doi/10.1136/inp.k2166">this</a> article for some guidance). Make sure to make use of the data-to-ink-ratio concept.</p></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>best practices</category>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/master-thesis-guide.html</guid>
+  <pubDate>Sat, 02 Nov 2024 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Get started with Github, R and Zenodo</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/github-r-zenodo.html</link>
@@ -1630,7 +1686,7 @@ font-style: inherit;">print</span>(e)</span></code></pre></div>
 
  ]]></description>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tools.html</guid>
-  <pubDate>Thu, 31 Oct 2024 01:21:40 GMT</pubDate>
+  <pubDate>Sat, 02 Nov 2024 16:46:49 GMT</pubDate>
 </item>
 </channel>
 </rss>
