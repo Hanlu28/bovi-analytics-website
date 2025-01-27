@@ -12,7 +12,7 @@ editor: visual
 
 ### Who am I:
 
-Hi! My name is Meike, and I’m from the Netherlands. I’m currently studying Veterinary Medicine at Utrecht University, and in January, I hope to begin a PhD at Cornell University. My research will combine two of my passions: cows and data. Although I still have much to learn, I enjoy programming, as it feels like solving puzzles. Thanks to my veterinary background, I’ve spent considerable time caring for cows and working to improve their welfare, which is something I find very important.
+Hi! My name is Meike, and I’m from the Netherlands. I’m a PhD student at Cornell University. My research combines two of my passions: cows and data. Although I still have much to learn, I enjoy programming, as it feels like solving puzzles. Thanks to my veterinary background, I’ve spent considerable time caring for cows and working to improve their welfare, which is something I find very important.
 
 ### My work at Bovi-Analytics
 
