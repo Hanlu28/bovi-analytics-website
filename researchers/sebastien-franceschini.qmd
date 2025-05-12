@@ -1,0 +1,21 @@
+---
+title: "Sébastien Franceschini"
+categories:
+  - MSC
+  - Unsupervised Learning
+  - Biostatistics
+author: "Sébastien Franceschini"
+date: 05/12/2025
+format: html
+editor: visual
+---
+
+### Who am I:
+
+I am a visiting researcher from Belgium, currently working with Professor Hélène Soyeurt at the University of Liège, Gembloux Agro-Bio Tech. I have always been fascinated by the stories that can be uncovered from data. This curiosity led me from a background in biology to biostatistics, and eventually to animal science. My research aims to enhance the value of mid-infrared milk data routinely collected in the dairy industry. To achieve this, I apply data mining techniques—primarily unsupervised learning methods—to large spectral datasets.
+
+### My work at Bovi-Analytics
+
+I am spending six months at Cornell University, collaborating on the integration of on-farm data with mid-infrared spectral data. Through this integration, we aim to better understand and validate patterns observed in extensive Belgian datasets.
+
+
