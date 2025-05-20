@@ -1,0 +1,20 @@
+---
+title: "Puchun Niu"
+categories:
+  - PhD
+  - Animal Science 
+  - Methane mitigation
+  - Data Science
+author: "Puchun Niu"
+date: 05/19/25
+format: html
+editor: visual
+---
+
+### Who am I
+
+I’m a postdoctoral associate at Cornell University. I earned my Ph.D. in Animal Science from the Norwegian University of Life Sciences, where I worked on strategies to reduce methane emissions from ruminants, especially dairy cattle. My research has focused on building prediction models for the Norwegian national methane inventories, testing feed additives, and exploring the rumen microbiome using meta-omics tools. Originally from China, I spent almost a decade living and working in Norway before moving to the U.S. in spring 2025. It's been another exciting transition, and I'm looking forward to what's ahead.
+
+### My work at Bovi-Analytics
+
+I’m currently working on the project *Accurate Gas Emissions Measures from Cattle with the GreenFeed System*. The goal of this project is to develop international standards and guidelines for estimating gas emissions from beef and dairy cattle using the GreenFeed system across a range of production scenarios. Right now, I’m focused on building the framework for an international database of gas emissions measured using the GreenFeed technique. This is based on existing studies in both dairy and beef systems, and I’m actively reaching out to collaborators to contribute experimental data.
