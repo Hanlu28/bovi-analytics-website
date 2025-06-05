@@ -16,4 +16,4 @@ Hi! My name is Meike, and I’m from the Netherlands. I’m a PhD student at Cor
 
 ### My work at Bovi-Analytics
 
-For my master's thesis, I developed an LSTM model to predict cows at risk of hypocalcemia using behavioral sensor data. The idea is that an improved version of the model could be used to monitor herd calcium status and identify animals at risk of transition diseases. This approach could help make proactive dairy management possible, ultimately improving animal health.
+I am currently working on everything surrounding lactation curves of Dairy Cows. Improving their accuracy not only gives us more reliable information about cows, it also opens up many opportunities for cool new applications. For my master's thesis, I developed an LSTM model to predict cows at risk of hypocalcemia using behavioral sensor data. The idea is that an improved version of the model could be used to monitor herd calcium status and identify animals at risk of transition diseases. This approach could help make proactive dairy management possible, ultimately improving animal health.
